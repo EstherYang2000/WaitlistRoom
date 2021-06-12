@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewGuestActivity">
+
+
+
+
+
+        <EditText
+            android:id="@+id/person_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Guest Name"
+            android:gravity="center"
+            android:inputType="textPersonName|textCapWords"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <EditText
+            android:id="@+id/party_count_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number"
+            android:gravity="center"
+            android:inputType=""
+            android:maxLength="5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+
+    <Button
+        android:id="@+id/add_to_waitlist_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:tint="@color/purple_700"
+        android:text="ADD"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Inverse" />
+
+
+
+  </LinearLayout>
